@@ -1,4 +1,4 @@
-  area  myfirst, CODE, READONLY
+  area  evenodd, CODE, READONLY
        EXPORT __main
        ENTRY 
 __main  FUNCTION		 
