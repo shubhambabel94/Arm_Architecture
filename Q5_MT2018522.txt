@@ -16,6 +16,7 @@ Interrupt generation : we can configure each bit of the I/O pins to generate int
 After an interrupt is triggered, the corresponding bit in the INTSTATUS Register is set. 
 This also causes the corresponding bit of the GPIOINT[15:0] signal to be asserted. 
 As a result, the combined interrupt signal, COMBINT, is also asserted. 
-we can clear the interrupt status using an interrupt handler that writes 1 to the corresponding bit of the INTCLEAR Register, the same address as the INTSTATUS Register.
+
+In this way processor can take input through GPIO pins and then it will again return to main program.
 
 
